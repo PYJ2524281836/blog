@@ -5,7 +5,7 @@ function handleBlogRouter(req,res){
         //向数据库获取博客信息 sql
         console.log(req.query);
         return{
-            id:'1',
+            id:'10',
             title:'标题1',
             content:'dadsdsadad',
             time:'252525'
@@ -16,7 +16,7 @@ function handleBlogRouter(req,res){
             id:'1',
             title:'标题1',
             content:'dadsdsadad',
-            time:'555555'
+            time:'5555555'
         }
     }
 }
